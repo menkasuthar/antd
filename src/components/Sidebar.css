@@ -1,5 +1,3 @@
-/* ===== Sidebar Background ===== */
-
 .sidebar-container {
   height: 100%;
   display: flex;
@@ -15,8 +13,6 @@
       #03111f 100%);
 }
 
-/* Scrollbar */
-
 .sidebar-container::-webkit-scrollbar {
   width: 5px;
 }
@@ -25,8 +21,6 @@
   background: rgba(255,255,255,.12);
   border-radius: 20px;
 }
-
-/* ===== Logo ===== */
 
 .logo-section {
   display: flex;
@@ -53,8 +47,6 @@
   font-size: 12px;
 }
 
-/* ===== Section Heading ===== */
-
 .menu-heading {
   color: #56708d;
   font-size: 11px;
@@ -63,15 +55,11 @@
   margin: 18px 20px 8px;
 }
 
-/* ===== Menu ===== */
-
 .sidebar-menu {
   background: transparent !important;
   border-inline-end: none !important;
   padding: 0 12px;
 }
-
-/* Items */
 
 .sidebar-menu .ant-menu-item,
 .sidebar-menu .ant-menu-submenu-title {
@@ -89,8 +77,6 @@
   font-size: 18px;
 }
 
-/* Hover */
-
 .sidebar-menu .ant-menu-item:hover,
 .sidebar-menu .ant-menu-submenu-title:hover {
   background: rgba(255,255,255,.07) !important;
@@ -98,16 +84,12 @@
   transform: translateX(4px);
 }
 
-/* Selected */
-
 .sidebar-menu .ant-menu-item-selected {
   background: linear-gradient(90deg, #2563eb, #3b82f6) !important;
   color: white !important;
   box-shadow: 0 8px 22px rgba(37,99,235,.35);
   position: relative;
 }
-
-/* Left Indicator */
 
 .sidebar-menu .ant-menu-item-selected::before {
   content: "";
@@ -119,8 +101,6 @@
   background: #8fd2ff;
 }
 
-/* Submenu Background */
-
 .ant-menu-sub {
   background: transparent !important;
 }
@@ -129,8 +109,6 @@
   padding-left: 48px !important;
   font-size: 13px;
 }
-
-/* ===== Footer ===== */
 
 .sidebar-footer {
   margin: auto 18px 20px;
@@ -171,8 +149,6 @@
   border-radius: 50%;
   box-shadow: 0 0 10px #22c55e;
 }
-
-/* ===== Collapsed Sidebar ===== */
 
 .ant-layout-sider-collapsed .menu-heading,
 .ant-layout-sider-collapsed .sidebar-footer {

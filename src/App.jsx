@@ -23,7 +23,6 @@ function App() {
 
   return (
     <Layout style={{ minHeight: "100vh" }}>
-      {/* Desktop Sidebar */}
       {!isMobile && (
         <Sider
           width={260}
@@ -37,7 +36,6 @@ function App() {
         </Sider>
       )}
 
-      {/* Mobile Sidebar */}
       {isMobile && (
         <Drawer
           placement="left"
@@ -51,7 +49,6 @@ function App() {
       )}
 
       <Layout>
-        {/* Header */}
         <Header className="app-header">
           <Button
             type="text"
@@ -85,7 +82,6 @@ function App() {
           </div>
         </Header>
 
-        {/* Content */}
         <Content className="app-content">
           <div className="content-card">
             <h1>Dashboard</h1>

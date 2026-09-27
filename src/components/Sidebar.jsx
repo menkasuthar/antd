@@ -78,7 +78,6 @@ const systemItems = [
 const Sidebar = ({ collapsed, onMenuClick }) => {
   return (
     <div className="sidebar-container">
-      {/* Logo */}
       <div className="logo-section">
         <Avatar size={46} className="logo-avatar">
           SM
@@ -92,7 +91,6 @@ const Sidebar = ({ collapsed, onMenuClick }) => {
         )}
       </div>
 
-      {/* Main */}
       <p className="menu-heading">MAIN</p>
 
       <Menu
@@ -104,7 +102,6 @@ const Sidebar = ({ collapsed, onMenuClick }) => {
         onClick={() => onMenuClick?.()}
       />
 
-      {/* Management */}
       <p className="menu-heading">MANAGEMENT</p>
 
       <Menu
@@ -115,7 +112,6 @@ const Sidebar = ({ collapsed, onMenuClick }) => {
         onClick={() => onMenuClick?.()}
       />
 
-      {/* System */}
       <p className="menu-heading">SYSTEM</p>
 
       <Menu
@@ -126,7 +122,6 @@ const Sidebar = ({ collapsed, onMenuClick }) => {
         onClick={() => onMenuClick?.()}
       />
 
-      {/* Footer */}
       {!collapsed && (
         <div className="sidebar-footer">
           <Avatar size={48} className="footer-avatar">
